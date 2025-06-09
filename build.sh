@@ -17,7 +17,7 @@ export KBUILD_USERNAME=Mohamed 4k
 export KBUILD_HOSTNAME=crave
 sudo chmod +x vendor
 sudo chmod 777 vendor
-riseup gale bp1a
+riseup gale bp1a || riseup gale userdebug
 
 echo "Im crave sir I will start beelding now Just hope it doesn't fail lol"
 
