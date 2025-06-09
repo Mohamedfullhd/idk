@@ -17,7 +17,7 @@ export KBUILD_USERNAME=Mohamed 4k
 export KBUILD_HOSTNAME=crave
 sudo chmod +x vendor
 sudo chmod 777 vendor
-lunch lineage_gale-ap4a-userdebug
+lunch lineage_gale-ap2a-userdebug || lineage_gale-bp1a-userdebug || lineage_gale-ap4a-userdebug
 
 echo "Im crave sir I will start beelding now Just hope it doesn't fail lol"
 
