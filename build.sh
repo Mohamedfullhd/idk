@@ -1,5 +1,5 @@
 
-repo init -u https://github.com/ProjectSakura/android.git --git-lfs --depth=1
+repo init -u https://github.com/RisingOS-Revived/android -b qpr2 --git-lfs
 /opt/crave/resync.sh
 #clone dev tree
 #git clone https://github.com/Jayzee-Zee/Local-Manifest --depth 1 -b CipherOS .repo/local_manifests
@@ -17,11 +17,11 @@ export KBUILD_USERNAME=Mohamed 4k
 export KBUILD_HOSTNAME=crave
 sudo chmod +x vendor
 sudo chmod 777 vendor
-lunch lineage_gale-ap2a-userdebug || lineage_gale-bp1a-userdebug || lineage_gale-ap4a-userdebug
+riseup gale bp1a
 
 echo "Im crave sir I will start beelding now Just hope it doesn't fail lol"
 
-make bacon
+rise b
 
 # sleep 10m
 
